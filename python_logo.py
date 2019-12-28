@@ -1,4 +1,4 @@
-"""Python Logo created by Brandon Dols"""
+#Python Logo created by Brandon Dols
 
 print('          _______          ')
 print('         / o      \        ')
