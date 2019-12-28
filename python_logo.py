@@ -1,3 +1,5 @@
+"""Python Logo created by Brandon Dols"""
+
 print('          _______')
 print('         / o      \ ')
 print('     ___|_____     |___')
@@ -7,5 +9,3 @@ print('   \     /              /')
 print('    \___/      ________/')
 print('        |       o |')
 print('         \_______/')
-print('       Python Logo')
-print('     by Brandon Dols')
