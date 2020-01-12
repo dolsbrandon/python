@@ -2,6 +2,7 @@
 
 import random
 import string
+from datetime import datetime
 
 def main():
 
@@ -13,8 +14,8 @@ def main():
     while not p_strength.isnumeric() or int(p_strength) < 1 or int(p_strength) > 4:
         p_strength = input('Choose password strength(1:Very Strong, 2: Strong, 3: Weak, 4: Very Weak): ')
 
-    # random seed using length and strength inputs
-    random.seed(int(p_length) + int(p_strength))
+    # random seed using time
+    random.seed(datetime.now())
 
     # password generator function
     passwordGenerator(int(p_length), int(p_strength))
